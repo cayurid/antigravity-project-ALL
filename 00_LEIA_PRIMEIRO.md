@@ -130,7 +130,8 @@ docs/
 
 ## 🌐 Interface Funcionando
 
-### Frontend (http://localhost:5174)
+### Frontend (<http://localhost:5174>)
+
 ```
 ✅ Login Page
    - Email input
@@ -153,7 +154,8 @@ docs/
    - Refresh & Logout buttons
 ```
 
-### Backend (http://localhost:3000)
+### Backend (<http://localhost:3000>)
+
 ```
 ✅ Health check: /health
 ✅ Auth endpoints: /api/auth/*
@@ -169,6 +171,7 @@ docs/
 ## 📋 Arquivos Principais
 
 ### Backend
+
 ```
 backend/
 ├── src/
@@ -191,6 +194,7 @@ backend/
 ```
 
 ### Frontend
+
 ```
 frontend/
 ├── src/
@@ -213,9 +217,10 @@ frontend/
 
 ## 🚀 Pronto para GitHub?
 
-### ✅ SIM! Aqui está o que fazer:
+### ✅ SIM! Aqui está o que fazer
 
 **1. Limpar arquivos (opcional)**
+
 ```bash
 # Remove MDs duplicados da raiz (se quiser)
 rm STATUS.md START_HERE.md PROJECT_*.md SECURITY_ANALYSIS.md ...
@@ -224,6 +229,7 @@ rm STATUS.md START_HERE.md PROJECT_*.md SECURITY_ANALYSIS.md ...
 ```
 
 **2. Fazer commit final**
+
 ```bash
 git add .
 git commit -m "docs: Consolidate and clean documentation structure
@@ -246,11 +252,13 @@ Cache: Redis 7.0 active ✅"
 ```
 
 **3. Push para GitHub**
+
 ```bash
 git push origin main
 ```
 
 **4. GitHub será assim:**
+
 ```
 antigravity-project-ALL/
 ├── README.md         (ou README_SIMPLE.md - simples)
@@ -266,6 +274,7 @@ antigravity-project-ALL/
 ## ⏭️ Próximos Passos (Você Quer)
 
 ### Opção 1: Fazer Deploy Agora
+
 ```bash
 # Vercel (Fácil - Recomendado)
 # 1. Ir para vercel.com
@@ -276,6 +285,7 @@ antigravity-project-ALL/
 ```
 
 ### Opção 2: Adicionar Mais Features
+
 ```bash
 # E.g., Adicionar notificações em tempo real com WebSocket
 # E.g., Adicionar autenticação OAuth (Google/GitHub)
@@ -283,6 +293,7 @@ antigravity-project-ALL/
 ```
 
 ### Opção 3: Melhorias de UX
+
 ```bash
 # E.g., Kanban view para tasks
 # E.g., Gantt chart para projetos
