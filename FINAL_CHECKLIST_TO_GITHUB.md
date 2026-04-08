@@ -15,6 +15,7 @@
 ### Arquivos Criados/Atualizados
 
 #### 🔐 Segurança
+
 - [x] `backend/src/middlewares/rateLimit.ts` - NOVO
 - [x] `backend/src/config/database.ts` - ATUALIZADO
 - [x] `backend/src/features/auth/AuthService.ts` - ATUALIZADO
@@ -22,15 +23,18 @@
 - [x] `backend/src/features/auth/routes.ts` - ATUALIZADO
 
 #### 📝 Documentação
+
 - [x] `backend/.env.example` - ATUALIZADO
 - [x] `backend/.env` - EXISTE (NÃO será commitado)
 - [x] `.gitignore` - OK (contém .env)
 
 #### 🐳 Docker
+
 - [x] `docker-compose.yml` - ATUALIZADO com env vars
 - [x] `rebuild.sh` - NOVO (script de rebuild)
 
 #### 📄 Documentação de Deploy
+
 - [x] `SECURITY_FIXES_IMPLEMENTED.md` - NOVO
 - [x] `GITHUB_AND_DEPLOY_GUIDE.md` - NOVO
 
@@ -39,6 +43,7 @@
 ## ✅ PRÉ-REQUISITOS CUMPRIDOS
 
 ### Segurança
+
 - [x] SQL Injection: Protegido (QueryBuilder)
 - [x] Password Hashing: Bcrypt 10 rounds
 - [x] Helmet Headers: Implementado
@@ -48,6 +53,7 @@
 - [x] Validação de Input: Feita
 
 ### Código
+
 - [x] TypeScript: Sem erros
 - [x] ESM Modules: Com .js extensions
 - [x] Docker: Funcionando
@@ -55,6 +61,7 @@
 - [x] Backend: Rodando (porta 3000)
 
 ### Preparação GitHub
+
 - [x] .env em .gitignore
 - [x] .env.example com defaults
 - [x] README.md existente
@@ -62,6 +69,7 @@
 - [x] package.json para ambos frontend/backend
 
 ### Documentação
+
 - [x] SECURITY_FIXES_IMPLEMENTED.md
 - [x] GITHUB_AND_DEPLOY_GUIDE.md
 - [x] Análise subagent completa
@@ -71,6 +79,7 @@
 ## 🔄 PRÓXIMAS AÇÕES (Passo a Passo)
 
 ### AÇÃO 1: Verificar Git Status
+
 ```bash
 # Abrir terminal na pasta do projeto
 cd "c:\Users\Clovis\Desktop\Programas Cayuri faculdade\atividades\antigravity-project-ALL"
@@ -85,6 +94,7 @@ git status
 ```
 
 ### AÇÃO 2: Fazer Add
+
 ```bash
 git add .
 
@@ -108,6 +118,7 @@ git status
 ```
 
 ### AÇÃO 3: Commit
+
 ```bash
 git commit -m "fix: Critical security vulnerabilities and production readiness
 
@@ -134,6 +145,7 @@ Production: Ready for deployment"
 ```
 
 ### AÇÃO 4: Push para GitHub
+
 ```bash
 # Ver qual branch está
 git branch
@@ -221,6 +233,7 @@ console.log(require('crypto').randomBytes(32).toString('hex'))
 ```
 
 Exemplo output:
+
 ```
 a7f3c9e2b1f4d8c6a2e9f1b3d5c7a9e1f3b5d7c9e1a3b5d7f9c1e3a5b7c9d1
 f2b4d6c8a1e3f5b7d9c1a3e5f7b9d1c3a5e7f9b1d3c5a7e9f1b3d5c7a9e1f3
@@ -231,6 +244,7 @@ f2b4d6c8a1e3f5b7d9c1a3e5f7b9d1c3a5e7f9b1d3c5a7e9f1b3d5c7a9e1f3
 ## ✈️ DEPLOY CHECKLIST
 
 ### Antes de Deploy
+
 - [ ] Git commit feito
 - [ ] Git push feito
 - [ ] Secrets gerados (não use defaults)
@@ -238,12 +252,14 @@ f2b4d6c8a1e3f5b7d9c1a3e5f7b9d1c3a5e7f9b1d3c5a7e9f1b3d5c7a9e1f3
 - [ ] README.md atualizado (se necessário)
 
 ### Durante Deploy
+
 - [ ] Variáveis de ambiente configuradas
 - [ ] Build sem erros
 - [ ] Database conectada
 - [ ] API respondendo
 
 ### Depois de Deploy
+
 - [ ] Frontend carrega
 - [ ] Login funciona
 - [ ] Criar tarefa funciona
