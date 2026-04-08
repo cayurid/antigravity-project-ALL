@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "ts-node": {
+        "esm": true,
+        "experimentalEsm": true,
+        "transpileOnly": true,
+        "compilerOptions": {
+            "module": "ESNext",
+            "target": "ES2020"
+        }
+    }
+}

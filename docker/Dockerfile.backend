@@ -1,0 +1,22 @@
+# Dockerfile for Backend
+
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install dependencies
+COPY package*.json ./
+RUN npm ci && npm install -D tsx
+
+# Copy source code
+COPY src ./src
+COPY tsconfig.json ./
+COPY jest.config.js ./
+COPY .eslintrc.json ./
+COPY .prettierrc ./
+
+# Expose port
+EXPOSE 3000
+
+# Start application in development mode
+CMD ["npm", "run", "dev"]
